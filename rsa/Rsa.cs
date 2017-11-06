@@ -58,7 +58,7 @@ namespace rsa
             while (true)
             {
                 if ((e * d) % ((d-1)*(q-1)) == 1)
-                    break;
+                    break; 
                 else
                     e++;
             }
@@ -71,7 +71,7 @@ namespace rsa
             for (uint i = 2; i <= (p - 1) * (q - 1); i++)
                 if (((p - 1) * (q - 1) % i == 0) && (d % i == 0)) //если имеют общие делители
                 {
-                    d--;
+                    d--;  //iter
                     i = 1;
                 }
 
