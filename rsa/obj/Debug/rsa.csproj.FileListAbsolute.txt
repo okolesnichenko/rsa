@@ -1,0 +1,7 @@
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\bin\Debug\rsa.exe.config
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\bin\Debug\rsa.exe
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\bin\Debug\rsa.pdb
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\obj\Debug\rsa.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\obj\Debug\rsa.csproj.CoreCompileInputs.cache
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\obj\Debug\rsa.exe
+C:\Users\Oleg\Desktop\Projects\Крипта\Rsa\rsa\rsa\obj\Debug\rsa.pdb
