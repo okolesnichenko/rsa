@@ -16,11 +16,11 @@ namespace rsa
         static void Main(string[] args)
         {
             //2 больших и простых числа p и q, и d 
-            uint p = 7;
-            uint q = 4;
+            uint p = 3;
+            uint q = 11;
             Random rnd = new Random();
-            uint d = Rsa.Calculate_d(p, q);
-            Console.WriteLine("d : " + d);
+            uint d = 3;//Rsa.Calculate_d(p, q);
+            //Console.WriteLine("d : " + d);
             ulong n = p * q;
 
             //шифруемый текст 

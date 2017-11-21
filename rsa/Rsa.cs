@@ -13,7 +13,7 @@ namespace rsa
         {
             Program.Key key;
             key.n = n;
-            key.keynum = Calculate_e(d, p, q);
+            key.keynum = 7;// Calculate_e(d, p, q);
             return key;
         }
 
@@ -27,7 +27,7 @@ namespace rsa
         static public string[] Encode(string[] M, Program.Key openkey)
         {
             //C(i)=(M(I)^e)mod n, где bi=M(i)^e
-            Console.Write("Open: " + openkey.keynum + "|");
+            //Console.Write("Open: " + openkey.keynum + "|");
             string[] C = new string[openkey.n-1];
             BigInteger bi;
             BigInteger n_ = (BigInteger)openkey.n;
@@ -41,7 +41,7 @@ namespace rsa
 
         static public string[] Decode(string[] C, Program.Key secretkey)
         {
-            Console.Write("Secret: " + secretkey.keynum +"|");
+            //Console.Write("Secret: " + secretkey.keynum +"|");
             string[] M = new string[secretkey.n - 1];
             BigInteger bi;
             BigInteger n_ = (BigInteger)secretkey.n;
@@ -71,7 +71,7 @@ namespace rsa
             for (uint i = 2; i <= (p - 1) * (q - 1); i++)
                 if (((p - 1) * (q - 1) % i == 0) && (d % i == 0)) //если имеют общие делители
                 {
-                    d--;  //iter
+                    d--;  
                     i = 1;
                 }
 
